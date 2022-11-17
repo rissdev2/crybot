@@ -23,11 +23,11 @@ a {
 }
 @font-face {
   font-family: gilory;
-  src: url(../public/Gilroy-Light.otf);
+  src: url(/Gilroy-Light.otf);
 }
 @font-face {
   font-family: gilory-bold;
-  src: url(../public/Gilroy-ExtraBold.otf);
+  src: url(/Gilroy-ExtraBold.otf);
 }
 /************ NavBar Css Start  ***********/
 
@@ -132,7 +132,7 @@ svg.border1 .hl-line {
 /************ Hero Section Css End  ***********/
 /************ Partners Section Css Star  ***********/
 .prtn-bg{
-  background-image: url(../public/prtn-bg.png);
+  background-image: url(/prtn-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0px;
@@ -190,7 +190,7 @@ color: #FFFFFF;
 margin-top: 30px;
 }
 .crd-1{
-  background-image: url(../public/crd1-bg.png);
+  background-image: url(/crd1-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 97px 50px 40px 50px;
@@ -213,7 +213,7 @@ color: #FFFFFF;
 opacity: 0.6;
 }
 .crd-2{
-  background-image: url(../public/crd2-bg.png);
+  background-image: url(/crd2-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 97px 50px 40px 50px;
@@ -236,7 +236,7 @@ color: #FFFFFF;
 opacity: 0.6;
 }
 .crd-3{
-  background-image: url(../public/crd3-bg.png);
+  background-image: url(/crd3-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 97px 50px 40px 50px;
