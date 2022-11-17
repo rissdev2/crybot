@@ -17,11 +17,8 @@ const Dashboard = () => {
                 <div className="col-md-1"></div>
             </div>
             <div className="row align-items-center">
-                <div className="col-md-1">
-                    <img src="assets/img/shape-4.png" className='img-fluid' alt="" />
-                </div>
-                <div className="col-md-11">
-                    <img src="assets/img/dashboard.png" className='img-fluid' alt="" />
+                <div className="col-md-12">
+                    <img src="assets/img/Dashboard.png" className='img-fluid' alt="" />
                 </div>
             </div>
         </div>  
