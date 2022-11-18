@@ -13,8 +13,8 @@ const Cards = () => {
                     <img src="assets/img/shape-2.png" className='img-fluid' alt="shapes" />
                 </div>
             </div>
-            <div className="row justify-content-center mt-5">
-                <div className="col-md-10 text-center">
+            <div className="row justify-content-center crds mt-5">
+                <div className="col-md-12 text-center">
                     <div className="row">
                         <div className="col-md-4 text-center crd-1">
                             <img src="assets/img/crd1-icon.png" className='img-fluid' alt="" />
