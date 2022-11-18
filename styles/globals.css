@@ -28,6 +28,9 @@ a {
   font-family: gilory-bold;
   src: url(/Gilroy-ExtraBold.otf);
 }
+.home-sec{
+  background-image: url(/Bg.png);
+}
 /************ NavBar Css Start  ***********/
 
 .navbar {
@@ -354,8 +357,69 @@ color: #FFFFFF;
 }
 /************ Footer Section Css End  ***********/
 
-/************ Container custom media querry start  ***********/
+/************ Mobile Section media querry start  ***********/
 
+
+@media only screen and (max-width: 600px) {
+  .br-hide{
+    display: none;
+  }
+  .hero-sec h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .hero-sec p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .about-sec h2 {
+    font-size: 55px;
+  }
+  .about-sec p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .crd-head h2 {
+    font-size: 35px;
+  }
+  .crd-head p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .dashboard-sec h2{
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .conter-pts p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .exp-sec h2{
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .exp-sec p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .ai-section h2{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .ai-section p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .crd-2 {
+    margin-top: 0px;
+  }
+  .btn-lst {
+    left: 105px;
+}
+}
+
+/************ Mobile Section media querry End  ***********/
+/************ Container custom media querry start  ***********/
 @media (min-width: 1600px) {
   .container {
     max-width: 1550px;
