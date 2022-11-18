@@ -6,13 +6,13 @@ const Footer = () => {
         <section className='foter-sec'>
           <div className="container">
             <div className="row  align-items-center">
-                <div className="col-md-4 text-start">
+                <div className="col-md-4 text-center text-md-start">
                 <a href=""><p>Term and Conditions</p></a>
                 </div>
                 <div className="col-md-4 text-center">
                     <img src="assets/img/logo.png" alt="" />
                 </div>
-                <div className="col-md-4 text-end">
+                <div className="col-md-4 text-center text-md-end">
                 <p>© All Rights Reserved, 2022.</p>
                 </div>
             </div>
