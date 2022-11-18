@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Script from "next/script";
 import About from "../Components/About";
+import Aisolution from "../Components/Aisolution";
 import Cards from "../Components/Cards";
 import Dashboard from "../Components/Dashboard";
+import Experience from "../Components/Experience";
+import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import Partners from "../Components/Partners";
@@ -63,6 +66,30 @@ export default function Home() {
       <br className="br-hide" />
       <br className="br-hide" />
       <Dashboard />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <Experience />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <Aisolution />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <Footer />
     </>
   );
 }
