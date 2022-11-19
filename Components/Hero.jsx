@@ -16,7 +16,7 @@ const Hero = () => {
 				<polyline points="182,1 182,59 1,59 1,1 182,1" className="hl-line"></polyline>
 			</svg>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 text-center">
                 <img src="assets/img/Earth.png" className='img-fluid' alt="Earth-image" />
             </div>
             </div> 

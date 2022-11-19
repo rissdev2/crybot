@@ -18,7 +18,7 @@ const Experience = () => {
               <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
               </p>
-              <div className="mt-5">
+              <div className="mt-5 mt-md-2">
                
               <div className="button">
 			<span>Get started</span>
@@ -38,7 +38,7 @@ const Experience = () => {
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
-          <img src="assets/img/experience-1.png" className="mt-5 mt-lg-0 img-fluid" alt="points image" />
+          <img src="assets/img/experience-1.png" className="mt-5 mt-md-2 mt-lg-0 img-fluid" alt="points image" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
@@ -54,6 +54,15 @@ const Experience = () => {
           </div>
         </div>
       </div>  
+
+
+
+
+
+
+
+
+         
         </>
     );
 }

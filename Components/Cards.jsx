@@ -18,17 +18,17 @@ const Cards = () => {
                     <div className="row">
                         <div className="col-md-4 text-center crd-1">
                             <img src="assets/img/crd1-icon.png" className='img-fluid' alt="" />
-                            <h3 className='mt-4'>Super Easy</h3>
+                            <h3 className='mt-4 mt-md-0'>Super Easy</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s .</p>
                         </div>
                         <div className="col-md-4 text-center crd-2">
                             <img src="assets/img/crd2-icon.png" className='img-fluid' alt="" />
-                            <h3 className='mt-4'>World class</h3>
+                            <h3 className='mt-4 mt-md-0'>World class</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s .</p>
                         </div>
                         <div className="col-md-4 text-center crd-3">
                             <img src="assets/img/crd3-icon.png" className='img-fluid' alt="" />
-                            <h3 className='mt-4'>Effective</h3>
+                            <h3 className='mt-4 mt-md-0'>Effective</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s .</p>
                         </div>
                     </div>

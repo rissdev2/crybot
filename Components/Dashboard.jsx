@@ -22,7 +22,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="container">
-        <div className="row dashboard-sec ">
+        <div className="row dashboard-sec align-items-center ">
           <div className="col-md-7">
             <h2>
               Use wealth expert tools without{" "}
@@ -43,7 +43,7 @@ const Dashboard = () => {
           <div className="col-md-1 text-center">
             <img src="assets/img/shape-4.png" className="img-fluid" alt="" />
           </div>
-          <div className="col-md-10">
+          <div className="col-md-10 text-center">
             <img src="assets/img/Dashboard.png" className="img-fluid" alt="" />
           </div>
           <div className="col-md-1"></div>
