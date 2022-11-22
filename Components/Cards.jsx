@@ -13,8 +13,8 @@ const Cards = () => {
                     <img src="assets/img/shape-2.png" className='img-fluid' alt="shapes" />
                 </div>
             </div>
-            <div className="row justify-content-center crds ">
-                <div className="col-md-12 text-center">
+            <div className="row align-items-end justify-content-center crds ">
+                {/* <div className="col-md-12 text-center">
                     <div className="row">
                         <div className="col-md-4 text-center crd-1">
                             <img src="assets/img/crd1-icon.png" className='img-fluid' alt="" />
@@ -33,6 +33,15 @@ const Cards = () => {
                         </div>
                     </div>
 
+                </div> */}
+                <div className="col-md-4 crd-1 text-center">
+                    <img src="assets/img/Left-card.svg" className='img-fluid' alt="" />
+                </div>
+                <div className="col-md-4 crd-1 text-center">
+                <img src="assets/img/Center-card.svg" className='img-fluid' alt="" />
+                </div>
+                <div className="col-md-4 crd-1 text-center">
+                <img src="assets/img/Right-card.svg" className='img-fluid' alt="" />
                 </div>
             </div>
             </div>  
