@@ -195,7 +195,10 @@ svg.border1 .hl-line {
 .crds {
   margin-top: 200px;
 }
-.crd-1 {
+.crd-1{
+  padding: 0px !important;
+}
+/* .crd-1 {
   background-image: url(/crd1-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,7 +264,7 @@ svg.border1 .hl-line {
   line-height: 32px;
   color: #ffffff;
   opacity: 0.6;
-}
+} */
 /************ Cards Section Css End  ***********/
 /************ Dashboard Section Css Start  ***********/
 .dashboard-sec h2 {
@@ -438,7 +441,7 @@ svg.border1 .hl-line {
     font-size: 18px;
     line-height: 26px;
   }
-  .crd-1 {
+  /* .crd-1 {
     background-size: contain;
     padding: 35px 35px 0px 35px;
   }
@@ -483,7 +486,7 @@ svg.border1 .hl-line {
     font-size: 14px;
     line-height: 20px;
     margin: 0px;
-  }
+  } */
   .crds {
     margin-top: 90px;
   }
@@ -522,12 +525,98 @@ svg.border1 .hl-line {
     font-size: 17px;
     line-height: 27px;
   }
+  .btn-lst {
+    left: 400px;
+}
+}
+@media (min-device-width: 1081px) and (max-device-width: 1400px) {
+  .br-hide{
+    display: none;
+  }
+  .hero-sec{
+    margin-top: 100px;
+  }
+  .hero-sec h1{
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .hero-sec p{
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .prtn-bg{
+    margin-top: 100px;
+  }
+  .about-sec h2{
+    font-size: 42px;
+  }
+  .about-sec p{
+    font-size: 17px;
+    line-height: 32px;
+  }
+  .crd-head{
+    margin-top: 100px;
+  }
+  .crds{
+    margin-top: 0px;
+  }
+  .dashboard-sec{
+    margin-top: 100px;
+  }
+  .dashboard-sec h2{
+    font-size: 49px;
+    line-height: 70px;
+  }
+  .conter-pts h2 {
+    font-size: 70px;
+  }
+  .conter-pts h3 {
+  font-size: 70px;
+  }
+  .conter-pts p{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .exp-sec h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .exp-sec p {
+    font-size: 16px;
+    line-height: 30px;  
+  }
+  .ai-section{
+    margin-top: 100px;
+  }
+  .ai-section h2{
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .ai-section p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .btn-lst {
+    left: 470px;
+}
+.foter-sec {
+margin-top: 50px;
+}
+}
+@media (min-device-width: 1401px) and (max-device-width: 1599px) {
+  .hero-sec h1{
+    font-size: 80px;
+  }
 }
 /************ Tab Section media querry End  ***********/
 /************ Container custom media querry start  ***********/
 @media (min-width: 1600px) {
   .container {
     max-width: 1550px;
+  }
+  .crd-1{
+    width: 30.333333% !important;
   }
 }
 /************ Container custom media querry End  ***********/
