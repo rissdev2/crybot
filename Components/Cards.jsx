@@ -7,7 +7,7 @@ const Cards = () => {
             <div className="row">
                 <div className="col-md-12 text-center crd-head">
                     <h2>This is why <span className='main-color spn-sty'>5M people</span>  choose crybot</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry s .</p>
+                    <p>We believe that we can help our customers achieve their goals by <br /> providing a simple solution to the problems they face in trading.</p>
                 </div>
                 <div className="col-md-12">
                     <img src="assets/img/shape-2.png" className='img-fluid' alt="shapes" />
@@ -34,7 +34,11 @@ const Cards = () => {
                     </div>
 
                 </div> */}
-                <div className="col-md-4 crd-1 text-center">
+
+
+
+
+                {/* <div className="col-md-4 crd-1 text-center">
                     <img src="assets/img/Left-card.svg" className='img-fluid' alt="" />
                 </div>
                 <div className="col-md-4 crd-1 text-center">
@@ -42,7 +46,27 @@ const Cards = () => {
                 </div>
                 <div className="col-md-4 crd-1 text-center">
                 <img src="assets/img/Right-card.svg" className='img-fluid' alt="" />
-                </div>
+                </div> */}
+
+                 <div className="col-md-1"></div>
+                 <div className="col-md-10">
+                    <div className="row align-items-end justify-content-center">
+                        <div className="col-md-4 crd-1 text-center">
+                        <img src="assets/img/Left-card.svg" className='img-fluid' alt="" />
+                        </div>
+                        <div className="col-md-4 crd-1 text-center">
+                        <img src="assets/img/Center-card.svg" className='img-fluid' alt="" />
+                        </div>
+                        <div className="col-md-4 crd-1 text-center">
+                        <img src="assets/img/Right-card.svg" className='img-fluid' alt="" />
+                        </div>
+                    </div>
+                 </div>
+                 <div className="col-md-1"></div>   
+
+
+
+
             </div>
             </div>  
         </>

@@ -15,7 +15,7 @@ const Aisolution = () => {
           <div className="col-md-1"></div>
           <div className="col-md-8 text-center justify-ci=ontent-center">
             <h2>Increasing your money with our developed best <span className="main-color spn-sty">AI Solution</span> </h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br /> been the industrys standard dummy text ever since the 1500s, when an unknown printer</p>
+            <p>Do you want to make money with stocks, but don't know where to start or are worried about <br /> picking the wrong ones? We can help.</p>
             <div className="button btn-lst">
 			<span>Get started</span>
 		</div>
