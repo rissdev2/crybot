@@ -20,16 +20,16 @@ const About = () => {
                 <div className="col-md-1"></div>
                 <div className="col-md-5">
                     <div className='about-pts'>
-                        <h3><span className='main-color spn-sty'>Start Up</span></h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page </p>
+                        <h3><span className='main-color spn-sty'>Values</span></h3>
+                        <p>Make a trusting relationship with our clients to provide them with the most innovative solutions designed to exceed their trade automation needs. </p>
                     </div>
                     <div className='about-pts my-5'>
-                        <h3><span className='main-color spn-sty'>On way</span></h3>
-                        <p>Point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here </p>
+                        <h3><span className='main-color spn-sty'>Vision</span></h3>
+                        <p>We believe that the future of cryptocurrency trading is automated, and we re here to help make that a reality.</p>
                     </div>
                     <div className='about-pts'>
                         <h3><span className='main-color spn-sty'>Goal</span></h3>
-                        <p>evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <p>To save millions of traders from the usual pains of trade and make it effortless through automation.</p>
                     </div>
                 </div>
                 <div className="col-md-1"></div>

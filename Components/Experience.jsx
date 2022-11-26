@@ -17,9 +17,7 @@ const Experience = () => {
                 <span className="main-color spn-sty">Without risks.</span>
               </h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer
+              Cut down your trading time and make more money by using crybot.You get the best of both worlds–a safe investment with no risk and spectacular returns.
               </p>
               <div className="mt-5 mt-md-2">
                 <div className="button">
