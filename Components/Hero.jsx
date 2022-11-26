@@ -7,7 +7,7 @@ const Hero = () => {
            <div className="row hero-sec align-items-center">
             <div className="col-md-6">
                 <h1>Start increasing your <span className='main-color spn-sty'>Wealth</span>  with TRADES for free!</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer</p>
+                <p>crybot is a trade automation tool that uses algorithmic trading to carry out trades and generate as much wealth as possible for you even while you sleep.</p>
         <div className="button">
 			<span>Get started</span>
 		</div>
