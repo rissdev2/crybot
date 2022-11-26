@@ -13,9 +13,9 @@ const About = () => {
                 <div className="col-md-1"></div>
                 <div className="col-md-4">
                     <h2>About <span className='main-color spn-sty'>Crybot</span></h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
-                    <p>less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
-                    <p>less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English.</p>
+                    <p>Everyone deserves to grow their wealth faster. That is why we created Crybot. we are passionate about the power of automation to save traders time & increase their profits.</p>
+                    <p>Our software is designed to help you make money in the markets 24/7. CryBot functions smarter than other bots. Our wealth-generating algorithms, don't just make trades for you all day, also work to boost your bank balance every single day.</p>
+                    <p>No need to watch the markets all day long Just set up your Profile and let the bots do the rest.</p>
                 </div>
                 <div className="col-md-1"></div>
                 <div className="col-md-5">
