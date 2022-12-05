@@ -618,3 +618,25 @@ margin-top: 50px;
  
 }
 /************ Container custom media querry End  ***********/
+
+/********** Dashboard Css Start  ********/
+/*********** SideBar Css Start  *********/
+.sidebar-menu>li>a {
+  padding: 15px 35px;
+
+
+}
+.is-collapsed .sidebar .sidebar-menu>li>a{
+  padding: 15px 15px;
+}
+.sidebar ul{
+  margin-top: 20px;
+}
+
+/*********** SideBar Css End  *********/
+
+
+
+
+
+/********** Dashboard Css End  ********/

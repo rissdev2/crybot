@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -9,7 +10,11 @@ const Hero = () => {
                 <h1>Start increasing your <span className='main-color spn-sty'>Wealth</span>  with TRADES for free!</h1>
                 <p>crybot is a trade automation tool that uses algorithmic trading to carry out trades and generate as much wealth as possible for you even while you sleep.</p>
         <div className="button">
-			<span>Get started</span>
+        <Link href="/Dasboard">
+              
+              <span>Get started</span>
+             
+              </Link> 
 		</div>
 		<svg width="190px" height="60px" viewBox="0 0 180 60" className="border1">
 				<polyline points="182,1 182,59 1,59 1,1 182,1" className="bg-line"></polyline>
