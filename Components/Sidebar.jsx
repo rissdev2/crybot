@@ -1,4 +1,6 @@
 import React from "react";
+import Dashboardnav from "./Dashboardnav";
+import Graphs from "./Graphs";
 
 const Sidebar = () => {
   
@@ -87,6 +89,26 @@ const Sidebar = () => {
             {/* <!-- Icon for dropdown here --> */}
             </a>
         </li>
+        <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#">
+            <span className="icon-holder">
+                {/* <i className="fas fa-fingerprint"></i> */}
+                <img src="assets/img/support.svg" alt="" />
+            </span>
+            <span className="title">Support</span>
+            {/* <!-- Icon for dropdown here --> */}
+            </a>
+        </li>
+        <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#">
+            <span className="icon-holder">
+                {/* <i className="fas fa-fingerprint"></i> */}
+                <img src="assets/img/logout.svg" alt="" />
+            </span>
+            <span className="title">Support</span>
+            {/* <!-- Icon for dropdown here --> */}
+            </a>
+        </li>
         </ul>
     </div>
 </div>
@@ -98,6 +120,11 @@ const Sidebar = () => {
         <a id="sidebar-toggle" className="sidebar-toggle nav-link" href="#">
         <i className="fa-solid fa-bars"></i>
 </a>
+<Dashboardnav />
+<br />
+<br />
+<br />
+<Graphs />
     </div>
 </body>
     </>

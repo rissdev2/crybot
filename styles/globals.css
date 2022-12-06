@@ -12,6 +12,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
+a:hover {
+  color: white;
+  text-decoration: none;
+}
 
 * {
   box-sizing: border-box;
@@ -336,7 +340,7 @@ svg.border1 .hl-line {
   margin-top: 30px;
 }
 .btn-lst {
-  left: 860px;
+  left: 46%;
 }
 /************ AiSolution Section Css End  ***********/
 /************ Footer Section Css Start  ***********/
@@ -526,7 +530,7 @@ svg.border1 .hl-line {
     line-height: 27px;
   }
   .btn-lst {
-    left: 400px;
+    left: 40%;
 }
 }
 @media (min-device-width: 1081px) and (max-device-width: 1400px) {
@@ -634,7 +638,184 @@ margin-top: 50px;
 }
 
 /*********** SideBar Css End  *********/
+/*********** NavBarBar Css Start  *********/
+.dash-head h1{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
 
+color: #FFFFFF;
+}
+.dash-head i{
+  font-size: 25px;
+  color: #fff;
+}
+
+.border-end{
+  border-right: 1px solid #444444 !important;
+}
+.btn-secondary{
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+.btn-secondary:focus{
+  box-shadow: none !important;
+}
+.dropdown-menu.show{
+  background-color: transparent;
+  
+}
+.dropdown-item{
+  color: #fff !important;
+}
+.dropdown-item:hover{
+  background-color: #444444 !important;
+}
+.badge{
+  font-size: 12px !important;
+  background-color: #6db225 !important;
+  padding: 0.35em 0.5em;
+  filter: drop-shadow(0px 0px 10px #6DB225);
+}
+/*********** NavBarBar Css End  *********/
+/*********** Graphs Css Start  *********/
+.grp-crd1{
+  background-image: url(/grp-crd1.png);
+  padding: 7px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.grp-crd1 p{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+margin-left: 10px;
+}
+.grp-crd1 h2{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+margin-left: 10px;
+margin-bottom: 1rem;
+/* identical to box height */
+color: #6DB225;
+}
+.grp-crd2{
+  background-image: url(/grp-crd2.png);
+  padding: 7px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.grp-crd2 p{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+margin-left: 10px;
+}
+.grp-crd2 h2{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+margin-left: 10px;
+/* identical to box height */
+color: #fff;
+}
+.grp-crd3{
+  background-image: url(/grp-crd3.png);
+  padding: 7px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.grp-crd3 p{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+margin-left: 10px;
+}
+.grp-crd3 h2{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+margin-left: 10px;
+/* identical to box height */
+color: #2293BE;
+}
+.grp-crd4{
+  background-image: url(/grp-crd4.png);
+  padding: 7px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.grp-crd4 p{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+margin-left: 10px;
+}
+.grp-crd4 h2{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+margin-left: 10px;
+/* identical to box height */
+color: #6DB225;
+}
+.dsh-btn{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+padding: 15px 90px;
+border-radius: 12px;
+background-color: #6DB225;
+}
+.dsh-btn1{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+padding: 15px 67px;
+border-radius: 12px;
+background-color: #2293BE;
+}
+/*********** Graphs Css End  *********/
 
 
 

@@ -2,6 +2,9 @@ import Head from "next/head";
 import Script from "next/script";
 import Sidebar from "../Components/Sidebar";
 
+
+
+
 export default function Home() {
   return (
     <>
@@ -24,7 +27,7 @@ export default function Home() {
       <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
       <Script src="https://kit.fontawesome.com/1f4b816a3f.js" crossorigin="anonymous" />
       <Script  src="https://cdn.jsdelivr.net/npm/next-sidebar@1/assets/js/next-sidebar.min.js" />
-      
+        
 
       <Sidebar />
 
