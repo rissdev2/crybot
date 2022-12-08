@@ -1,6 +1,7 @@
 import React from "react";
 import Dashboardnav from "./Dashboardnav";
 import Graphs from "./Graphs";
+import History from "./History";
 
 const Sidebar = () => {
   
@@ -46,7 +47,7 @@ const Sidebar = () => {
                 <img src="assets/img/menu.svg" alt="" />
             </span>
             {/* <!-- Navigation link here --> */}
-            <span className="title">Dashboard</span>
+            <span className="title text-white">Dashboard</span>
             </a>
         </li>
         <li className="nav-item dropdown">
@@ -105,7 +106,7 @@ const Sidebar = () => {
                 {/* <i className="fas fa-fingerprint"></i> */}
                 <img src="assets/img/logout.svg" alt="" />
             </span>
-            <span className="title">Support</span>
+            <span className="title">Logout</span>
             {/* <!-- Icon for dropdown here --> */}
             </a>
         </li>
@@ -125,6 +126,9 @@ const Sidebar = () => {
 <br />
 <br />
 <Graphs />
+<br />
+<br />
+<History />
     </div>
 </body>
     </>
