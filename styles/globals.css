@@ -627,8 +627,18 @@ margin-top: 50px;
 /*********** SideBar Css Start  *********/
 .sidebar-menu>li>a {
   padding: 15px 35px;
+}
+.sidebar .sidebar-inner .sidebar-menu>li>a .title{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
 
-
+color: #666666;
+}
+.sidebar-menu>li>a:hover{
+  background-color: transparent;
 }
 .is-collapsed .sidebar .sidebar-menu>li>a{
   padding: 15px 15px;
@@ -636,7 +646,9 @@ margin-top: 50px;
 .sidebar ul{
   margin-top: 20px;
 }
-
+.sidebar-menu li a{
+  color: #666666;
+}
 /*********** SideBar Css End  *********/
 /*********** NavBarBar Css Start  *********/
 .dash-head h1{
@@ -815,7 +827,163 @@ padding: 15px 67px;
 border-radius: 12px;
 background-color: #2293BE;
 }
+.nav-tabs{
+  border: none !important;
+}
+.nav-tabs .nav-link.active{
+  background-color: #2293BE;
+  border: none !important;
+  border-radius: 10px !important;
+  color: #fff;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border: none !important;
+}
+.nav-tabs .nav-link{
+  font-family: 'Nunito' !important;
+font-style: normal !important;
+font-weight: 400;
+font-size: 13px !important;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+.nav-tabs .nav-link{
+  border: none !important;
+}
+.nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover{
+  font-family: 'Nunito' !important;
+  font-style: normal !important;
+  font-weight: 400;
+  font-size: 13px !important;
+  line-height: 18px;
+  /* identical to box height */
+  
+  letter-spacing: -0.01em;
+  
+  color: #FFFFFF;
+}
+.nav-tabs{
+  justify-content: center !important;
+  background-color: #1b1b1b;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+.chrt-1 h2{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+/* letter-spacing: -0.01em; */
+
+color: #FFFFFF;
+}
+.btn-coin{
+  background-color: transparent !important;
+  border: 1px solid #666666;
+  filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.09));
+  border-radius: 10px;
+    outline: none !important;
+color: #fff;
+}
+.btn-coin:hover{
+  color: #fff;
+}
+.btn-coin:focus{
+  box-shadow: none !important;
+}
 /*********** Graphs Css End  *********/
+/*********** Wallet Sec Css Start  *********/
+.wlt-sec h3{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+}
+.coin a{
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  /* identical to box height */
+  
+  letter-spacing: -0.01em;
+  
+  color: #FFFFFF;
+  
+
+}
+.coin a span{
+  font-weight: 700;
+}
+.coin-prcnt a{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 26px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+}
+.bg-dark{
+ background-color: #222222 !important;
+}
+/*********** Wallet Sec Css End  *********/
+/*********** History Sec Css Start   *********/
+.hist-sec h3{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+}
+.table>:not(:last-child)>:last-child>*{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+.table-borderless>:not(caption)>*>*{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.rd-text{
+  color: #C60000 !important;
+}
+.bl-text{
+  color: #2293BE !important;
+}
+/*********** History Sec Css End  *********/
 
 
 
