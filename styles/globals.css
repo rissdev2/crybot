@@ -20,7 +20,10 @@ a:hover {
 * {
   box-sizing: border-box;
 }
-
+.main-di{
+  background-color: #111111;
+  background-image: url(/Glow.png);
+}
 .main-color {
   color: #6db225 !important;
 }
@@ -649,6 +652,24 @@ color: #666666;
 .sidebar-menu li a{
   color: #666666;
 }
+.line{
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 130%;
+}
+.line1{
+  width: 200px;
+  margin-left: 30px;
+  /* margin-top: 130%; */
+}
+.is-collapsed .sidebar .line{
+  /* padding: 15px 15px; */
+  display: none;
+}
+.is-collapsed .sidebar .line1{
+  /* padding: 15px 15px; */
+  display: none;
+}
 /*********** SideBar Css End  *********/
 /*********** NavBarBar Css Start  *********/
 .dash-head h1{
@@ -746,6 +767,7 @@ font-weight: 700;
 font-size: 60px;
 line-height: 89px;
 margin-left: 10px;
+margin-bottom: 1rem;
 /* identical to box height */
 color: #fff;
 }
@@ -773,6 +795,7 @@ font-weight: 700;
 font-size: 60px;
 line-height: 89px;
 margin-left: 10px;
+margin-bottom: 1rem;
 /* identical to box height */
 color: #2293BE;
 }
@@ -800,6 +823,7 @@ font-weight: 700;
 font-size: 60px;
 line-height: 89px;
 margin-left: 10px;
+margin-bottom: 1rem;
 /* identical to box height */
 color: #6DB225;
 }
@@ -941,7 +965,7 @@ color: #FFFFFF;
 
 }
 .bg-dark{
- background-color: #222222 !important;
+ background-color: #0E0E0E !important;
 }
 /*********** Wallet Sec Css End  *********/
 /*********** History Sec Css Start   *********/
@@ -984,7 +1008,51 @@ color: #FFFFFF;
   color: #2293BE !important;
 }
 /*********** History Sec Css End  *********/
+/******* Dashboard Media Querries Start ********/
+@media screen and (max-width: 765px) {
+  .dash-head h1 {
+    font-size: 25px;
+  }
+  .grp-crd1 ,.grp-crd2 ,.grp-crd3 ,.grp-crd4 {
+    padding: 42px 15px;
+    margin-top: 20px;
+  }
+  .btn-dv{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #myChart{
+    height: 120px !important;
+  }
+  .nav-tabs .nav-link {
+  font-size: 10px !important;
+ 
 
+  }
+  .nav-tabs{
+    padding: 5px 15px !important;
+  }
+  .chrt-1 h2 {
+  font-size: 20px;
+  }
+  .table>:not(:last-child)>:last-child>* {
+  font-size: 10px;
+  line-height: 18px;
+  }
+  .table-borderless>:not(caption)>*>*{
+    font-size: 10px;
+    line-height: 17px;
+  }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .btn-dv{}
+}
+/******* Dashboard Media Querries End ********/
 
 
 
