@@ -6,12 +6,12 @@ const Dashboardnav = () => {
           <div className="container-fluid">
             <div className="row dash-head align-items-center">
               <div className="col-md-1"></div>
-                <div className="col-md-7">
+                <div className="col-5 col-md-7">
                     <h1>
                         Dashboard
                     </h1>
                 </div>
-                <div className="col-md-1 border-end text-center ">
+                <div className="col-1 col-md-1 border-end text-center ">
                 <i class="fa-solid fa-bell position-relative">
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
     3
@@ -20,7 +20,7 @@ const Dashboardnav = () => {
 
                 </i>
                 </div>
-               <div className="col-md-2 d-flex justify-content-center">
+               <div className="col-6   col-md-2 d-flex justify-content-center">
                 <img src="assets/img/Ellipse.png" alt="" />
                 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

@@ -9,8 +9,9 @@ const Sidebar = () => {
   return (
     <>
     <body className="app ">
+        <div className="main-di">
     {/* <!-- Sidebar content here --> */}
-    <div className="sidebar">
+    <div className="sidebar bg-dark">
     <div className="sidebar-inner">
         <div className="sidebar-logo">
         <div className="d-flex align-items-center flex-nowrap">
@@ -37,7 +38,7 @@ const Sidebar = () => {
             </div>
         </div>
     </div>
-              
+         <hr className="line1  " />     
     <ul className="sidebar-menu scrollable position-relative">
         <li className="nav-item dropdown">
             <a className="nav-link" href="#">
@@ -90,6 +91,8 @@ const Sidebar = () => {
             {/* <!-- Icon for dropdown here --> */}
             </a>
         </li>
+        <div></div>
+        <hr className="line" />
         <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#">
             <span className="icon-holder">
@@ -118,7 +121,7 @@ const Sidebar = () => {
 
     <div className="container-wide">
         {/* <!-- Page content here --> */}
-        <a id="sidebar-toggle" className="sidebar-toggle nav-link" href="#">
+        <a id="sidebar-toggle" className="sidebar-toggle nav-link" href="">
         <i className="fa-solid fa-bars"></i>
 </a>
 <Dashboardnav />
@@ -129,6 +132,7 @@ const Sidebar = () => {
 <br />
 <br />
 <History />
+    </div>
     </div>
 </body>
     </>
