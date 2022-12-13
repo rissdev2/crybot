@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'
 
 const Experience = () => {
   return (
@@ -21,7 +22,11 @@ const Experience = () => {
               </p>
               <div className="mt-5 mt-md-2">
                 <div className="button">
-                  <span>Get started</span>
+                <Link href="/Dasboard">
+              
+              <span>Get started</span>
+             
+              </Link> 
                 </div>
                 <svg
                   width="190px"
