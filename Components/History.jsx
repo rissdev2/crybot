@@ -4,8 +4,8 @@ const History = () => {
     return (
         <>
         <div className="container-fluid">
-            <div className="row pb-5">
-                <div className="col-md-1"></div>
+            <div className="row pb-5 justify-content-center">
+                {/* <div className="col-md-1"></div> */}
                 <div className="col-md-10 bg-dark hist-sec py-3 px-3 rounded-3">
                     <h3>History</h3>
                 <table class="table  table-borderless text-white">
@@ -55,7 +55,7 @@ const History = () => {
   </tbody>
 </table>  
                 </div>
-                <div className="col-md-1"></div>
+                {/* <div className="col-md-1"></div> */}
             </div>
         </div>
         

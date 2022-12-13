@@ -23,6 +23,8 @@ a:hover {
 .main-di{
   background-color: #111111;
   background-image: url(/Glow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .main-color {
   color: #6db225 !important;
@@ -343,7 +345,7 @@ svg.border1 .hl-line {
   margin-top: 30px;
 }
 .btn-lst {
-  left: 46%;
+  left: 45.2%;
 }
 /************ AiSolution Section Css End  ***********/
 /************ Footer Section Css Start  ***********/
@@ -1050,7 +1052,21 @@ color: #FFFFFF;
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-  .btn-dv{}
+  #myChart{
+    height: 190px;
+  }
+  .table>:not(:last-child)>:last-child>*{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .table-borderless>:not(caption)>*>*{
+    font-size: 15px;
+  }
+}
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  {
+
 }
 /******* Dashboard Media Querries End ********/
 

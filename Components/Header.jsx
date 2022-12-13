@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const Header = () => {
     return (
@@ -35,10 +36,20 @@ const Header = () => {
     
     <ul className="navbar-nav ms-auto">
       <li className="nav-item">
-        <a className="nav-link" href="#">Sign In</a>
+      <Link href="/Dasboard">
+              
+              <span className="nav-link">Sign In</span>
+             
+              </Link> 
+        {/* <a  href="#"></a> */}
       </li>
       <li className="nav-item">
-        <a className="nav-link main-color" href="#">Sign up</a>
+      <Link href="/Dasboard">
+              
+              <span className="nav-link main-color">Sign up</span>
+             
+              </Link> 
+        {/* <a  href="#"></a> */}
       </li>
     
     </ul>

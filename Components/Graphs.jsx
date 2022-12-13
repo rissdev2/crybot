@@ -5,9 +5,9 @@ const Graphs = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="row align-items-center justify-content-center">
-          {/* <div className="col-md-1"></div> */}
-          <div className="col-md-4 col-lg-2 mb-md-2 mb-lg-0 grp-crd1 me-2">
+        <div className="row align-items-center justify-content-center justify-content-lg-start">
+          <div className="col-lg-1"></div>
+          {/* <div className="col-md-4 col-lg-2 mb-md-2 mb-lg-0 grp-crd1 me-2">
             <p>Current Balance</p>
             <h2>$1782.32</h2>
           </div>
@@ -22,8 +22,20 @@ const Graphs = () => {
           <div className="col-md-4 col-lg-2 grp-crd4 me-2">
             <p>Profit Percentage</p>
             <h2>86%</h2>
+          </div> */}
+          <div className="col-md-4 col-lg-2 text-center mb-3 mb-md-3">
+            <img src="assets/img/dsh1.png" className="img-fluid" alt="" />
           </div>
-          <div className="col-md-4 mt-md-5 mt-lg-0  col-lg-2 btn-dv">
+          <div className="col-md-4 col-lg-2 text-center mb-3 mb-md-3">
+            <img src="assets/img/dsh2.png" className="img-fluid" alt="" />
+          </div>
+          <div className="col-md-4 col-lg-2 text-center mb-3 mb-md-3">
+            <img src="assets/img/dsh3.png" className="img-fluid" alt="" />
+          </div>
+          <div className="col-md-4 col-lg-2 text-center mb-3 mb-md-0">
+            <img src="assets/img/dsh4.png" className="img-fluid" alt="" />
+          </div>
+          <div className="col-md-4 mt-md-0 mt-lg-0  col-lg-2 btn-dv">
             <a href="" className="dsh-btn">
               Invest
             </a>
